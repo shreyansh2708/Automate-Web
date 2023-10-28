@@ -1,0 +1,39 @@
+.top{
+    width: 100%;
+    margin: 0;
+}
+.container {
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+}
+  
+textarea {
+    resize: none;
+    border-style: none;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type='submit'] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.translated-text{
+    border: 3px dashed rgb(5, 77, 88);
+    width: 40%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+p{
+    font-size: 1.5rem;
+}

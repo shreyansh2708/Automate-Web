@@ -1,0 +1,82 @@
+.imgup{
+    width: 250px;
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    margin: 0 20px;
+    border-radius: 20px;
+}
+.body{
+  width: 100%;
+}
+h1{
+  margin-top: 0;
+}
+
+.upload-image {
+  margin: auto;
+  width: 50%;
+  height: 300px;
+  border-radius: 20px;
+  border: 3px dashed rgb(135, 3, 3);
+  display: flex;
+  justify-content: center;
+}
+
+
+
+input[type="file"] {
+  display: none; /* Hide the default file input */
+}
+
+.custom-file-input {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 10px;
+  margin-right: 40px;
+  cursor: pointer;
+}
+
+.upload-button {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+  }
+
+.upload-button:hover {
+  background-color: #0056b3;
+}
+
+.text-container {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.text-container button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.text-container button:hover {
+  background-color: #0056b3;
+}
+
+.extracted-text {
+  margin-top: 20px;
+  font-size: 18px;
+  color: black;
+  text-align: justify;
+}

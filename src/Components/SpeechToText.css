@@ -1,0 +1,38 @@
+/* Add your CSS styles here or in a separate CSS file */
+
+/* Style for the container div */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 20px;
+}
+
+/* Style for the buttons */
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Style for the extracted text section */
+p {
+  margin: 10px;
+  font-size: 18px;
+}
+
+/* Style for the ReactMic component */
+.react-mic {
+  margin-top: 20px;
+  /* Add any additional styles you need for the audio recording component */
+}
